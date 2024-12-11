@@ -1,0 +1,53 @@
+body {
+	background: white;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postphoto {
+	background: #D3D3D3	;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.postphoto-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999px;
+	text-align: center;
+	background: white;
+}
+
+.postphoto-body-1, .postphoto-body-2, .postphoto-body-3, .postphoto-body-4 {
+	background: white;
+ 	width: 650px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 5px;
+}
+
+h2{
+	text-align: left;
+	padding-left: 20px;
+}
+
+p{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+img{
+	width: 640px;
+	height: 360px;
+}
